@@ -1,0 +1,10 @@
+[server]
+baseUrlPath = "MOS-Insight"
+port = "8080"
+
+[theme]
+primaryColor = "#DA7F3A"
+backgroundColor = "#3A4D54"
+secondaryBackgroundColor = "#767779"
+textColor = "#ffffff"
+font = "sans serif"

@@ -1,0 +1,30 @@
+[data-testid="stSidebarContent"] {
+    background-color: #ffff !important;
+    /* border-right: 2px solid #e26009 !important; */
+}
+
+[data-testid="stMarkdownContainer"] {
+    color: #ffff !important;
+}
+
+[data-testid="stSidebarNavLink"] {
+    /* background-color: #3A4D54 !important; */
+    color: #3A4D54 !important;
+}
+
+[data-testid="stAppViewBlockContainer"] {
+    /* background: linear-gradient(135deg, #3A4D54, #6D8B8C, #A1D6E0, #6D8B8C) !important; */
+    /* background: linear-gradient(135deg, #3A4D54 0%, #6D8B8C 50%, #A1D6E0 75%, #6D8B8C 100%); */
+	background: linear-gradient(135deg, #3A4D54, #3A4D54, #7398a0) !important;
+    width: 100% !important;
+    height: 150% !important;
+}
+
+[data-testid="stSidebarCollapseButton"] {
+    background-color: #DA7F3A;
+}
+
+[data-testid="stLogo"] {
+    height: 1.5rem;
+}
+
