@@ -9,13 +9,15 @@
 #
 # Script Function:  This Python tool monitors servers and services as per user-configured settings in config.ini. 
 #                   It conducts various checks including server pinging, Windows service, web service, network storage, 
-#                   database connection, and disk usage checks and can trigger email alerts according to predefined conditions.
+#                   database connection, disk usage, and domain account checks and can trigger email alerts according to predefined conditions.
 # 
 # Version 1.3.0
 # 07/10/2024 Elvin Yalung   Refined logic in various functions, adding additional validations.
 # 07/26/2024 Elvin Yalung   Added functionality to retrieve details of domain service accounts, including their active status.
 # 08/17/2024 Elvin Yalung   Enhanced email status notifier to validate and respect item intervals before sending alerts.
 #                           Implemented support for "<, >, like" operators in predefined alert conditions.
+# Version 1.3.1
+#11/28/2024 Elvin Yalung    v.1.3.1 Added the status summary chart of records for each method to Home page.
 
 ########################
 # IMPORT MODULES
